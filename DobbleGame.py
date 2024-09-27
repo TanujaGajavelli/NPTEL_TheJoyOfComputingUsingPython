@@ -1,6 +1,5 @@
 import random
 import string
-symbols=[]
 symbols=list(string.ascii_letters)
 card1=[0]*5
 card2=[0]*5

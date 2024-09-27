@@ -42,3 +42,4 @@ try:
             print("Magic square is not possible for ",n2,"!!")
 except Exception as e:
     print(e)
+
