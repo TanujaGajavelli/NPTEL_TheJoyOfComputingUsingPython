@@ -1,7 +1,7 @@
 import pandas as pd
 import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
-nltk.downloader.download('vader_lexicon')
+nltk.downloader.download('vader_lexicon')  #nltk-natural language toolkit
 file='posts.xlsx'
 xl=pd.ExcelFile(file)  #Read from excel file
 dfs=xl.parse(xl.sheet_names[0])  #Parsing excel sheet to data frame
